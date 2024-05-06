@@ -1,0 +1,77 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"duotone": null
+		},
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1150px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"color": {
+			"text": "var(--wp--preset--color--black)"
+		},
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--black)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-font)"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+}
