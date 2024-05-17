@@ -46,40 +46,40 @@
 			],
 			"fontSizes": [
 				{
-					"slug" : "small",
-					"size": "0.9rem",
+					"fluid": {
+						"max": "1.2rem",
+						"min": "0.9rem"
+					},
 					"name": "Small",
-					"fluid": {
-						"min": "0.9rem",
-						"max": "1.2rem"
-					}
+					"size": "0.9rem",
+					"slug": "small"
 				},
 				{
-					"slug" : "medium",
-					"size": "1.2rem",
+					"fluid": {
+						"max": "1.6rem",
+						"min": "1.2rem"
+					},
 					"name": "Medium",
-					"fluid": {
-						"min": "1.2rem",
-						"max": "1.6rem"
-					}
+					"size": "1.2rem",
+					"slug": "medium"
 				},
 				{
-					"slug" : "large",
-					"size": "1.6rem",
+					"fluid": {
+						"max": "2.4rem",
+						"min": "1.4rem"
+					},
 					"name": "Large",
-					"fluid": {
-						"min": "1.4rem",
-						"max": "2.4rem"
-					}
+					"size": "1.6rem",
+					"slug": "large"
 				},
 				{
-					"slug" : "x-large",
-					"size": "2.4rem",
-					"name": "Extra Large",
 					"fluid": {
-						"min": "2.4rem",
-						"max": "3.2rem"
-					}
+						"max": "3.2rem",
+						"min": "2.4rem"
+					},
+					"name": "Extra Large",
+					"size": "2.4rem",
+					"slug": "x-large"
 				}
 			]
 		},
