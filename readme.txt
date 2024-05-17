@@ -1,4 +1,4 @@
-=== Ubu Island ===
+=== POUMTCHAK ===
 Contributors: bacarbon
 Requires at least: 6.0
 Tested up to: 6.5.2
@@ -17,8 +17,8 @@ Very small block theme to quickstart any project
 
 == Copyright ==
 
-Ubu Island WordPress Theme, (C) 2024 bacarbon
-Ubu Island is distributed under the terms of the GNU GPL.
+POUMTCHAK WordPress Theme, (C) 2024 bacarbon
+POUMTCHAK is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

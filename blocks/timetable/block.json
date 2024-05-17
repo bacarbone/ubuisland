@@ -1,0 +1,11 @@
+{
+    "name": "acf/timetable",
+    "title": "Horaires",
+    "description": "Montrer les horaires du magasin",
+    "style" : [ "file:./timetable.css" ],
+    "icon": "calendar",
+    "acf" : {
+        "mode": "preview",
+        "renderTemplate": "timetable.php"
+    }
+}
