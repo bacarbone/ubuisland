@@ -1,9 +1,6 @@
 {
 	"settings": {
 		"appearanceTools": true,
-		"color": {
-			"duotone": null
-		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1150px"
