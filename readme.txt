@@ -1,5 +1,5 @@
 === Ubu Island ===
-Contributors: bacarbon
+Contributors: bacarbone
 Requires at least: 6.0
 Tested up to: 6.5.2
 Requires PHP: 5.7
@@ -17,7 +17,7 @@ Very small block theme to quickstart any project
 
 == Copyright ==
 
-Ubu Island WordPress Theme, (C) 2024 bacarbon
+Ubu Island WordPress Theme, (C) 2024 bacarbone
 Ubu Island is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
