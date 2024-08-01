@@ -1,7 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 const css = require("css");
-const _ = require("lodash");
 
 const cssPath = path.resolve(__dirname, "./styling/blocks/core/");
 const themePath = path.resolve(__dirname, "./theme.json");
