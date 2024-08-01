@@ -1,0 +1,13 @@
+& {
+    border: 1px solid blue !important;
+}
+
+& th{
+    border: 1px solid red;
+}
+&:hover{
+    background-color: aquamarine;
+}
+& td{
+    border: 1px solid pink !important;
+}

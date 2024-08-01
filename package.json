@@ -1,7 +1,7 @@
 {
   "name": "ubuisland",
   "version": "1.0.0",
-  "description": "=== Ubu Island === Contributors: bacarbon Requires at least: 6.0 Tested up to: 6.5.2 Requires PHP: 5.7 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "description": "=== Ubu Island === Contributors: bacarbone Requires at least: 6.0 Tested up to: 6.5.2 Requires PHP: 5.7 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
   "main": "index.js",
   "scripts": {
     "wp-env": "wp-env",
@@ -9,11 +9,17 @@
     "wp-env:start": "wp-env start",
     "wp-env:update": "wp-env start --update",
     "wp-env:destroy": "wp-env destroy",
-    "theme:activate": "wp-env run cli wp theme activate $npm_package_name"
+    "theme:activate": "wp-env run cli wp theme activate $npm_package_name",
+    "blocks:format": "wp-scripts format ./custom-blocks/src",
+    "blocks:lint:css": "wp-scripts lint-style ./custom-blocks/src/**/*.scss",
+    "blocks:lint:js": "wp-scripts lint-js ./custom-blocks/src",
+    "blocks:start": "wp-scripts start --webpack-src-dir=\"./custom-blocks/src\" --output-path=\"./custom-blocks/build\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@wordpress/env": "^9.10.0"
+    "@wordpress/env": "^9.10.0",
+    "@wordpress/scripts": "^28.4.0",
+    "css": "^3.0.0"
   }
 }
